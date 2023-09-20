@@ -3,6 +3,8 @@
 
 <h1>Leer antes de llorar</h1>
 
+<h2>Para jugar basta con bajar la carpeta `windows-amd64`</h2>
+
 <h4>Conceptos y aclaraciones:</h4>
 
 <p>Los botones estan mal ubicados a conciencia, recuerden que la idea es que no llegues al final del juego sino que lo cierres antes por eso tambien la decision de usar comic sans en todo el juego.</p>
