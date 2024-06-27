@@ -61,7 +61,7 @@ int pregunta = 0;
 //Declaro respuesta siempre verdadero para poder cambiar el texto
 boolean respuesta = true;
 //Cargo todas las variables de las imagenes que uso
-PImage fondo, fondo_escenas, fondo_menu, boton_jugar, boton_escenas,  boton_menu, boton_salir, caja_texto, lenguaje, roles, mascara_fondo, oscuridad, boton_siguiente, fondo_escena_oscuro, meme, nave, asteroide_imagen, icono;
+PImage fondo, fondo_escenas, fondo_menu, boton_jugar, boton_escenas,  boton_menu, boton_salir, caja_texto, lenguaje, roles, mascara_fondo, oscuridad, boton_siguiente, fondo_escena_oscuro, meme, nave, asteroide_imagen;
 //Declaro mutear como false para que empieze con audio
 boolean mutear = false;
 //Variable Linterna
@@ -88,19 +88,17 @@ final String primermensaje = "Escribe tu nombre y da un click";
 String mensaje = primermensaje;
 String mensajenuevo= mensaje;
 
+
 void setup(){
 
-  size(1200, 720);
+  
   surface.setSize (1200, 720);// Tamaño del Lienzo
   surface.setLocation(0,0);
   //Habilito redimencion
   surface.setResizable(true);
   //Titulo de programa
   surface.setTitle("Una conversacion con El Roles");
-  //Defino el icono
-  icono=loadImage("img/icono.png");//cargo icono
-  surface.setIcon(icono);
-
+  
 
   //Fuentes
   font = loadFont("ComicSansMS-38.vlw"); // Leer la fuente
@@ -194,6 +192,11 @@ void setup(){
   songs_level23 = minim.loadFile("music/cancion23.mp3",1024);
 }
 
+void settings(){
+  size(1200, 720,P2D);
+  PJOGL.setIcon("img/icono.png");
+}
+  
 void draw(){
   //Maximizar
 
