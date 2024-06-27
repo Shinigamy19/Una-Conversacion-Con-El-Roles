@@ -3,7 +3,7 @@
 
 <h1>Leer antes de llorar</h1>
 
-<h2>Para jugar basta con bajar la carpeta <a href="https://drive.google.com/file/d/1l15mWJ4MGJc8yhGTXnOZ66mMPoynI4KG/view?usp=sharing">'windows-amd64'</a></h2>
+<h2>Para jugar basta con bajar la carpeta <a href="https://drive.google.com/file/d/1-kwlggkMtFILLG69cXmBNIGMwH63ld_W/view?usp=sharing">'windows-amd64'</a></h2>
 
 <h4>Conceptos y aclaraciones:</h4>
 
